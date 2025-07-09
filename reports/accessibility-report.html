@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessibility Report - Companies House Assessment</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; line-height: 1.6; }
+        .header { background: #2c3e50; color: white; padding: 20px; border-radius: 5px; }
+        .summary { background: #ecf0f1; padding: 15px; margin: 20px 0; border-radius: 5px; }
+        .critical { border-left: 5px solid #e74c3c; background: #fdf2f2; padding: 15px; margin: 10px 0; }
+        .serious { border-left: 5px solid #f39c12; background: #fef9e7; padding: 15px; margin: 10px 0; }
+        .moderate { border-left: 5px solid #f1c40f; background: #fefce8; padding: 15px; margin: 10px 0; }
+        .minor { border-left: 5px solid #3498db; background: #f0f8ff; padding: 15px; margin: 10px 0; }
+        .recommendation { background: #e8f5e8; padding: 15px; margin: 10px 0; border-radius: 5px; }
+        .code { background: #2c3e50; color: #ecf0f1; padding: 10px; border-radius: 3px; font-family: monospace; }
+        .impact-badge { padding: 5px 10px; border-radius: 3px; color: white; font-weight: bold; }
+        .impact-critical { background: #e74c3c; }
+        .impact-serious { background: #f39c12; }
+        .impact-moderate { background: #f1c40f; }
+        .impact-minor { background: #3498db; }
+        .nav { background: #34495e; padding: 10px; margin: 20px 0; border-radius: 5px; }
+        .nav a { color: white; text-decoration: none; margin-right: 20px; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🔍 Accessibility Report - Companies House Assessment</h1>
+        <p><strong>Generated:</strong> 08/07/2025, 00:18:50</p>
+        <p><strong>Test Framework:</strong> Cucumber + Playwright + TypeScript</p>
+    </div>
+    
+    <div class="nav">
+        <a href="#summary">Summary</a>
+        <a href="#issues">Issues</a>
+        <a href="#action-plan">Action Plan</a>
+    </div>
+    
+    <div class="summary" id="summary">
+        <h2>📊 Summary</h2>
+        <p><strong>Compliance Level:</strong> Non-Compliant (Critical Issues)</p>
+        <p><strong>Total Violations:</strong> 2</p>
+        <p><strong>Critical:</strong> 1 | 
+           <strong>Serious:</strong> 1 | 
+           <strong>Moderate:</strong> 0 | 
+           <strong>Minor:</strong> 0</p>
+    </div>
+    
+    <div id="issues">
+        <h2>🚨 Critical Issues (Fix Immediately)</h2>
+
+            <div class="critical">
+                <h3><span class="impact-badge impact-critical">Critical</span> Images must have alternative text</h3>
+                <p><strong>Elements affected:</strong> 1</p>
+                <p><strong>Help:</strong> Images must have alternative text</p>
+                <div class="recommendation">
+                    <h4>💡 How to Fix:</h4>
+                    <ul><li>Add alt attribute to img elements</li></ul>
+                </div>
+            </div><h2>⚠️ Serious Issues (Fix Soon)</h2>
+
+            <div class="serious">
+                <h3><span class="impact-badge impact-serious">Serious</span> Form controls must have labels</h3>
+                <p><strong>Elements affected:</strong> 1</p>
+                <p><strong>Help:</strong> Form controls must have labels</p>
+                <div class="recommendation">
+                    <h4>💡 How to Fix:</h4>
+                    <ul><li>Add label elements or aria-label attributes</li></ul>
+                </div>
+            </div>
+    </div>
+    
+    <div id="action-plan">
+        <h2>📋 Action Plan</h2>
+        <div class="recommendation">
+            <h3>🚨 Immediate Actions (Critical Issues)</h3>
+            <ol><li>Images must have alternative text</li></ol>
+        </div>
+        <div class="recommendation">
+            <h3>⚠️ Short-term Actions (Serious Issues)</h3>
+            <ol><li>Form controls must have labels</li></ol>
+        </div>
+    </div>
+</body>
+</html>
